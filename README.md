@@ -1,8 +1,16 @@
 # Mass-Minimized Lunar Radiation Protection Using In-Situ Regolith and Distributed Magnetic Shielding
 
-Leon Sandler, Independent Researcher, Northbrook, IL, USA — sandler.leon@gmail.com
+Leon Sandler, Independent Researcher, Northbrook, IL, USA — sandler.leon@gmail.com — ORCID: [0009-0007-4584-808X](https://orcid.org/0009-0007-4584-808X)
 
-Manuscript prepared for submission to *Space Weather* (AGU), MS# 2026SW005387.
+Manuscript resubmitted to *Space Weather* (AGU), MS# 2026SW005387, as "Mass-Minimized
+Lunar Radiation Protection Using In-Situ Regolith and Distributed Magnetic Shielding:
+Physics, Engineering Feasibility, and a Specification for Dose Validation," following
+editorial review. The revision fully incorporates the previously-unpublished Boris-pusher
+physics (Sections 3–6), adds an engineering-feasibility section (launch, cryogenics,
+power, reliability), and adds a radiation-dose-context section connecting the paper's
+energy-fluence metric to NASA dose limits and published benchmarks — while stating
+explicitly that dose reduction itself is not yet established and specifying the
+HZETRN2020/Geant4 transport calculation required to do so.
 
 ## Summary
 
@@ -26,7 +34,13 @@ is unchanged from the prior physics-focused analysis, archived separately at
 
 ## Contents
 
-- `manuscript/` — full manuscript (Word), CC BY 4.0.
+- `manuscript/` — CC BY 4.0:
+  - `Lunar_Shield_ISRU_Manuscript.docx` — the current manuscript.
+  - `Cover_Letter.docx` — short resubmission cover letter.
+  - `Response_to_Editor_Comments.docx` — point-by-point response to the editor's
+    decision letter of September 4, 2026.
+  - `Lunar_Shield_ISRU_Manuscript_TrackedChanges.docx` — word-level tracked-changes
+    comparison against the original submission, per AGU's resubmission checklist.
 - `code/` — Python/NumPy simulation and calculation code, MIT license:
   - `scaffold_shield_sim.py` — the validated relativistic Boris-pusher core
     (geometry builders, field solver, particle push), reused unchanged from
