@@ -41,6 +41,8 @@ is unchanged from the prior physics-focused analysis, archived separately at
     decision letter of September 4, 2026.
   - `Lunar_Shield_ISRU_Manuscript_TrackedChanges.docx` — word-level tracked-changes
     comparison against the original submission, per AGU's resubmission checklist.
+- `figures/` — the three manuscript figures as separate files, regenerated from the
+  model output by `code/generate_figures.py` (AGU requires separate figure files).
 - `code/` — Python/NumPy simulation and calculation code, MIT license:
   - `scaffold_shield_sim.py` — the validated relativistic Boris-pusher core
     (geometry builders, field solver, particle push), reused unchanged from
@@ -53,6 +55,9 @@ is unchanged from the prior physics-focused analysis, archived separately at
     regolith slab-attenuation thickness sweep. Each result prints next to
     the manuscript's stated figure for direct comparison.
   - `mass_isru_results.json` — machine-readable output of the above run.
+  - `generate_figures.py` — regenerates Figures 1–3 directly from
+    `mass_isru_results.json`, so every plotted value traces to the archived
+    calculation rather than to a hand-drawn graphic.
 
 Run with `python scaffold_shield_mass_isru.py` (requires `numpy`,
 `matplotlib`); reproduces the manuscript's Section 8-11 headline figures to

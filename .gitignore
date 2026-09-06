@@ -1,0 +1,8 @@
+# local working scripts and scratch dumps used to build the revision
+*.py
+!code/*.py
+*_dump.txt
+*_check*.txt
+refs_check*.txt
+response_check.txt
+old_ms_zenodo_mentions.txt
